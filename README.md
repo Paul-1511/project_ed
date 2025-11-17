@@ -2,7 +2,7 @@
 
 Proyecto de implementación y comparación de métodos numéricos (Runge-Kutta de orden 2 y 4) para resolver ecuaciones diferenciales ordinarias.
 
-## 📋 Descripción
+## Descripción
 
 Este proyecto implementa métodos numéricos para resolver:
 
@@ -17,12 +17,12 @@ Este proyecto implementa métodos numéricos para resolver:
   - Sistema lineal 2×2
   - Oscilador de Van der Pol: $y'' - \mu(1-y^2)y' + y = 0$
 
-## 🔧 Métodos Implementados
+## Métodos Implementados
 
 - **RK2 (Heun):** Método de Runge-Kutta de orden 2
 - **RK4:** Método de Runge-Kutta de orden 4
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 project_ed/
@@ -51,7 +51,7 @@ project_ed/
     └── test_orden_metodos.py   # Verificación de convergencia
 ```
 
-## 🚀 Instalación
+## Instalación
 
 ### Requisitos Previos
 
@@ -93,7 +93,7 @@ project_ed/
    pip install numpy matplotlib
    ```
 
-## 📊 Uso
+## Uso
 
 ### Ejecutar el Programa Principal
 
@@ -131,7 +131,7 @@ python verify_solution.py      # Verifica solución de primer orden
 python verify_segundo.py       # Verifica solución de segundo orden
 ```
 
-## 📈 Resultados Esperados
+## Resultados Esperados
 
 ### Convergencia de Métodos
 
@@ -150,7 +150,7 @@ python verify_segundo.py       # Verifica solución de segundo orden
 - Plano de fase del sistema lineal
 - Trayectorias del oscilador de Van der Pol
 
-## 🔍 Detalles de Implementación
+## Detalles de Implementación
 
 ### Ecuación Lineal: $y' + 2ty = t^3$
 
@@ -174,20 +174,20 @@ Sistema de ecuaciones de primer orden:
 - $y_1' = y_2$
 - $y_2' = \mu(1 - y_1^2)y_2 - y_1$
 
-## 📝 Notas Técnicas
+## Notas Técnicas
 
 - El proyecto usa `matplotlib` con backend `Agg` para compatibilidad en sistemas Windows
 - Se emplean caracteres ASCII en salida de consola para evitar problemas de codificación
 - Los archivos CSV contienen: tiempo, solución numérica, solución analítica (si aplica), error absoluto
 
-## 👤 Autor
+## Autor
 
-Paul-1511
+Pablo Méndez
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto se proporciona con fines educativos.
 
-## 📞 Soporte
+## Soporte
 
 Para reportar errores o sugerir mejoras, abra un issue en el repositorio.
